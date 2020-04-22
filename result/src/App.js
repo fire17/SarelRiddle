@@ -5,9 +5,11 @@ import { data } from './assets/const';
 
 
 
-const result = Object.keys(data).map((setOfRectangles) => {
-  return <BinPacker data={data[setOfRectangles]} name={setOfRectangles} />
-})
+
+// const result = Object.keys(data).map((setOfRectangles) => {
+//   return <BinPacker data={data[setOfRectangles]} name={setOfRectangles} />
+// })
+
 const ExampleSetA = data['ExampleSetA']
 function App() {
   return (
