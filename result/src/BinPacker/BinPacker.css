@@ -1,0 +1,9 @@
+.packsContainer{
+    border: 5px solid black;
+    padding:10px;
+    position: relative;
+}
+
+.packContainer{
+    border: 5px solid black;
+}
